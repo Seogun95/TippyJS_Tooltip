@@ -1,0 +1,86 @@
+html {
+    font-size: 16;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font: Tahoma, Verdana, sans-serif;
+    background: #2d2d2d;
+    color: white;
+    text-align: center;
+    max-width: 1400px;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+article {
+    padding: 70px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+p {
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+.tootip-container {
+    background-color: #171717;
+    margin: 50px auto;
+    padding: 25px 10px;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.tootip-container button {
+    border: none;
+    color: #fff;
+    background: #424557;
+    will-change: opacity;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 4px;
+    -webkit-transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 0 1px 4px -2px black, inset 0 2px 1px -1px rgb(255 255 255 / 10%);
+}
+
+.tippy-box[data-theme] {
+    font-size: 0.8rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+.tippy-box[data-theme~='seogun'] {
+    background: linear-gradient(90deg, rgba(0, 88, 255, 1) 0%, rgba(223, 114, 161, 1) 100%);
+    color: white;
+}
+.tippy-box[data-theme~='seogun'][data-placement^='top'] > .tippy-arrow:before {
+    border-top-color: #7866d4;
+}
